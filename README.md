@@ -6,9 +6,9 @@
 
 ## Solution
 
-|  Project - Visualization of Countries Data  |
-| :-----------------------------------------: |
-|    ![Result image](./images/result1.png)    |
-| ![Result of sort](./images/result-sort.png) |
-|                                             |
-|          Live Preview [Here 🌐]()           |
+|                       Project - Visualization of Countries Data                        |
+| :------------------------------------------------------------------------------------: |
+|                         ![Result image](./images/result1.png)                          |
+|                      ![Result of sort](./images/result-sort.png)                       |
+|                                                                                        |
+| Live Preview [Here 🌐](https://samzyconcepts.github.io/world-countries-visualization/) |
