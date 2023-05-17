@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>World Countries Data Visualization 2</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1>WORLD COUNTRIES LIST</h1>
+				<h3>
+					Total Number of countries:
+					<span class="countries-count"></span>
+				</h3>
+				<p class="feedback"></p>
+
+				<div class="button-container">
+					<label>
+						starting word
+						<input
+							type="radio"
+							name="filter"
+							class="starts-with"
+							value="starts-with"
+						/>
+					</label>
+					<label>
+						search with any word
+						<input
+							type="radio"
+							name="filter"
+							class="search"
+							value="search"
+						/>
+					</label>
+					<label>
+						Sort Z-A
+						<input
+							type="checkbox"
+							name="sort"
+							class="sort"
+						/>
+					</label>
+				</div>
+
+				<div class="input-container">
+					<input type="text" placeholder="Search country" />
+				</div>
+			</div>
+		</header>
+
+		<section class="countries-wrapper container"></section>
+
+		<script src="./data/countries.js"></script>
+		<script src="./scripts/main.js"></script>
+	</body>
+</html>
